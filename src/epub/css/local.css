@@ -129,3 +129,15 @@ p span.i1{
 q{
 	font-style: italic;
 }
+
+#chapter-1 blockquote,
+#chapter-7 blockquote{
+	font-style: italic;
+	margin: 1em 0;
+}
+
+#chapter-1 blockquote > p,
+#chapter-7 blockquote > p{
+	text-indent: 1em;
+}
+
