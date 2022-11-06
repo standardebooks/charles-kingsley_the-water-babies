@@ -93,21 +93,28 @@ section[epub|type~="epigraph"] > *{
 }
 /* End full-page epigraphs */
 
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
+[epub|type~="z3998:song"] p + p,
 [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
 
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:song"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
@@ -126,18 +133,32 @@ p span.i1{
 	text-indent: -1em;
 }
 
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
+}
+
+p span.i3{
+	padding-left: 4em;
+	text-indent: -1em;
+}
+
+#chapter-7 blockquote > p[epub|type~="z3998:roman"]{
+	font-weight: bold;
+	text-align: center;
+}
+
 q{
 	font-style: italic;
 }
 
-#chapter-1 blockquote,
-#chapter-7 blockquote{
+#chapter-1 blockquote:first-of-type,
+#chapter-7 blockquote:last-of-type{
 	font-style: italic;
 	margin: 1em 0;
 }
 
-#chapter-1 blockquote > p,
-#chapter-7 blockquote > p{
+#chapter-1 blockquote:first-of-type > p,
+#chapter-7 blockquote:last-of-type > p{
 	text-indent: 1em;
 }
-
