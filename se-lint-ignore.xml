@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-7.xhtml">
+		<ignore>
+			<code>s-006</code>
+			<reason>Two elements mark up ordinals and not stanzas.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-8.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Paragraph is unindented continuation of previously started speech.</reason>
+		</ignore>
+	</file>
+	<file path="epigraph-*.xhtml">
+		<ignore>
+			<code>s-036</code>
+			<reason>Epigraphs are placed before each chapter and are therefore part of bodymatter.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
