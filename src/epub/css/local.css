@@ -152,18 +152,50 @@ q{
 	font-style: italic;
 }
 
-table{
-	margin: 1em;
+#chapter-3 div,
+#chapter-5 div,
+#chapter-7 div,
+#chapter-8 div{
+	column-count: 2;
+	margin: 1em 2.5em 1em;
 }
 
-#chapter-5 table td,
-#chapter-8 table td{
-	padding-left: 1em;
+#chapter-3 div{
+	width: 17em;
 }
 
-#chapter-5 tr:last-of-type > td,
-#chapter-7 tr:last-of-type > td,
-#chapter-8 tr:nth-last-of-type(-n+3) > td{
+#chapter-5 div{
+	width: 18em;
+}
+
+#chapter-7 div{
+	width: 22em;
+}
+
+#chapter-8 div{
+	width: 26em;
+}
+
+#chapter-3 div p,
+#chapter-5 div p,
+#chapter-7 div p,
+#chapter-8 div p{
+	text-indent: 0;
+}
+
+#chapter-3 div p:last-of-type,
+#chapter-7 div p:last-of-type,
+#chapter-8 div p:first-of-type{
+	column-span: all;
+}
+
+#chapter-5 div p:last-of-type{
+	column-span: all;
+	padding-left: 4em;
+}
+
+#chapter-8 div p:nth-last-of-type(-n+3){
+	column-span: all;
 	text-align: center;
 }
 
