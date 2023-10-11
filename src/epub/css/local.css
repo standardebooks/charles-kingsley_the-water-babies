@@ -206,14 +206,3 @@ ul{
 ol > li:nth-child(2){
 	padding-top: 1em;
 }
-
-#chapter-1 blockquote:first-of-type,
-#chapter-7 blockquote:last-of-type{
-	font-style: italic;
-	margin: 1em 0;
-}
-
-#chapter-1 blockquote:first-of-type > p,
-#chapter-7 blockquote:last-of-type > p{
-	text-indent: 1em;
-}
