@@ -148,10 +148,7 @@ q{
 	font-style: italic;
 }
 
-#chapter-3 div,
-#chapter-5 div,
-#chapter-7 > div,
-#chapter-8 div{
+section > div{
 	column-count: 2;
 	margin: 1em 2.5em 1em;
 }
@@ -172,10 +169,7 @@ q{
 	width: 26em;
 }
 
-#chapter-3 div p,
-#chapter-5 div p,
-#chapter-7 > div p,
-#chapter-8 div p{
+section > div p{
 	text-indent: 0;
 }
 
