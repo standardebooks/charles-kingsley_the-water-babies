@@ -38,6 +38,7 @@ section[epub|type~="dedication"] p:first-of-type{
 
 section[epub|type~="dedication"] p:last-of-type{
 	font-size: .75em;
+	font-variant: small-caps;
 	text-indent: 0;
 }
 
