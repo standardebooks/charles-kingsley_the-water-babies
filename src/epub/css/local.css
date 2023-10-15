@@ -162,7 +162,7 @@ section > div{
 	width: 18em;
 }
 
-#chapter-7 > div{
+#chapter-7-body > div{
 	width: 22em;
 }
 
@@ -175,7 +175,7 @@ section > div p{
 }
 
 #chapter-3 div p:last-of-type,
-#chapter-7 > div p:last-of-type,
+#chapter-7-body > div p:last-of-type,
 #chapter-8 div p:first-of-type{
 	column-span: all;
 }
