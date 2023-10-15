@@ -6,10 +6,4 @@
 			<reason>Paragraph is unindented continuation of previously started speech.</reason>
 		</ignore>
 	</file>
-	<file path="epigraph-*.xhtml">
-		<ignore>
-			<code>s-036</code>
-			<reason>Epigraphs are placed before each chapter and are therefore part of bodymatter.</reason>
-		</ignore>
-	</file>
 </se-lint-ignore>
