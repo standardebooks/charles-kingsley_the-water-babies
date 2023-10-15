@@ -55,15 +55,15 @@
 		<dc:source>https://www.gutenberg.org/ebooks/25564</dc:source>
 		<dc:source>https://archive.org/details/waterbabiesfairy00king6</dc:source>
 		<meta property="se:production-notes">
+			Chapter-1: modernize-spelling was prevented from modifying verse in the epigraph
+
 			Chapters 1 and 3 feature several stretched-out words; typogrify incorrectly attempts to change those back to regular hyphens.
 
-			Chapter 2, line 138: Sea-horse is not modernised and keeps the hyphen to not clash with the style of the paragraph.
+			Chapter 2, line 163: Sea-horse is not modernised and keeps the hyphen to not clash with the style of the paragraph.
 
-			Chapter 2, line 141: Water-men is not modernised and keeps the hyphen for the same reason as above.
+			Chapter 2, line 166: Water-men is not modernised and keeps the hyphen for the same reason as above.
 
 			Chapter 7: modernize-spelling incorrectly attempts to remove hyphens from a song.
-
-			Epigraph-1: modernize-spelling was prevented from modifying verse.
 
 			Several parts, lists in particular, were italicised in the original scans; those italics were dropped in this production. However, there are two sections, in Chapters 1 and 7, that are set at a different indent level and italicised in the original; those were kept.
 		</meta>
