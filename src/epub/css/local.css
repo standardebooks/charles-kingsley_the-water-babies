@@ -150,8 +150,6 @@ q{
 }
 
 section > div{
-	break-after: page;
-	break-before: page;
 	break-inside: avoid;
 	column-count: 2;
 	column-gap: 2em;
