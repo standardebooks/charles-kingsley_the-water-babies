@@ -30,19 +30,19 @@ section[epub|type~="dedication"] > *{
 }
 /* End centered dedications */
 
-section[epub|type~="dedication"] p:first-of-type{
+section[epub|type~="dedication"] p{
 	font-variant: small-caps;
 	line-height: 2;
 	margin-bottom: 2.5em;
+	text-indent: 0;
 }
 
 section[epub|type~="dedication"] p:last-of-type{
 	font-size: .75em;
-	font-variant: small-caps;
-	text-indent: 0;
+	margin-bottom: 0;
 }
 
-section[epub|type~="dedication"] span{
+section[epub|type~="dedication"] b{
 	font-size: 1.25em;
 }
 
