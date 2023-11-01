@@ -176,15 +176,7 @@ ul{
 	list-style-type: none;
 }
 
-ol{
-	list-style-type: none;
-}
-
-ol:first-of-type,
-ol:nth-of-type(n+2) > li:first-child{
-	list-style-type: decimal;
-}
-
+li p,
 li p:first-child{
 	padding-left: 1em;
 	text-indent: -1em;
