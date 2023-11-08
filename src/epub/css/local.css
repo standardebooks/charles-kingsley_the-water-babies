@@ -1,5 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 /* Centered dedications */
 section[epub|type~="dedication"]{
@@ -33,13 +34,11 @@ section[epub|type~="dedication"] > *{
 section[epub|type~="dedication"] p{
 	font-variant: small-caps;
 	line-height: 2;
-	margin-bottom: 2.5em;
 	text-indent: 0;
 }
 
-section[epub|type~="dedication"] p:last-of-type{
-	font-size: .75em;
-	margin-bottom: 0;
+section[epub|type~="dedication"] p + p{
+	margin-top: 2.5em;
 }
 
 section[epub|type~="dedication"] b{
@@ -145,10 +144,6 @@ p span.i3{
 	text-align: center;
 }
 
-q{
-	font-style: italic;
-}
-
 section > div{
 	break-inside: avoid;
 	column-count: 2;
@@ -180,4 +175,9 @@ li p,
 li p:first-child{
 	padding-left: 1em;
 	text-indent: -1em;
+}
+
+blockquote[xml|lang],
+q{
+	font-style: italic;
 }
