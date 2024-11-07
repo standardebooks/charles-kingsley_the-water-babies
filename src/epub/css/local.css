@@ -42,7 +42,7 @@ section[epub|type~="dedication"] p + p{
 }
 
 section[epub|type~="dedication"] b{
-	font-size: 1.25em;
+	font-size: larger;
 }
 
 /* All epigraphs */
