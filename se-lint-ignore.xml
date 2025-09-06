@@ -2,12 +2,12 @@
 <se-lint-ignore>
 	<file path="chapter-3.xhtml">
 		<ignore>
-			<code>y-003</code>
-			<reason>Text is split into two columns; last item doesn’t contain any punctuation and text continues with next paragraph.</reason>
-		</ignore>
-		<ignore>
 			<code>t-057</code>
 			<reason>Text is split into two columns and doesn’t follow regular formatting rules.</reason>
+		</ignore>
+		<ignore>
+			<code>y-003</code>
+			<reason>Text is split into two columns; last item doesn’t contain any punctuation and text continues with next paragraph.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-5.xhtml">
@@ -18,16 +18,16 @@
 	</file>
 	<file path="chapter-8.xhtml">
 		<ignore>
-			<code>y-019</code>
-			<reason>Paragraph is unindented continuation of previously started speech.</reason>
-		</ignore>
-		<ignore>
 			<code>t-051</code>
 			<reason>Text is split into two columns in a div; next paragraph element does begin with “.</reason>
 		</ignore>
 		<ignore>
 			<code>t-057</code>
 			<reason>Text is split into two columns and doesn’t follow regular formatting rules.</reason>
+		</ignore>
+		<ignore>
+			<code>y-019</code>
+			<reason>Paragraph is unindented continuation of previously started speech.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
