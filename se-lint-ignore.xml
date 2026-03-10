@@ -5,22 +5,26 @@
 			<reason>Text is split into two columns and doesn’t follow regular formatting rules.</reason>
 		</ignore>
 		<ignore code="y-003">
+			<line>73</line>
 			<reason>Text is split into two columns; last item doesn’t contain any punctuation and text continues with next paragraph.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-5.xhtml">
 		<ignore code="y-003">
+			<line>108</line>
 			<reason>Text continues split into two columns.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8.xhtml">
 		<ignore code="t-051">
+			<line>285</line>
 			<reason>Text is split into two columns in a div; next paragraph element does begin with “.</reason>
 		</ignore>
 		<ignore code="t-057">
 			<reason>Text is split into two columns and doesn’t follow regular formatting rules.</reason>
 		</ignore>
 		<ignore code="y-019">
+			<line>320</line>
 			<reason>Paragraph is unindented continuation of previously started speech.</reason>
 		</ignore>
 	</file>
