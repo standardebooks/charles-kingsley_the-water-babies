@@ -37,8 +37,8 @@
 		<dc:title id="fulltitle">The Water-Babies: A Fairy Tale for a Land-Baby</dc:title>
 		<meta property="file-as" refines="#fulltitle">Water-Babies, The</meta>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
-		<dc:subject id="subject-1">Chimney sweeps -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-2">Fairy tales -- England</dc:subject>
+		<dc:subject id="subject-1">Chimney sweeps--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-2">Fairy tales--England</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
